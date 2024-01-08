@@ -187,6 +187,16 @@
     margin-top: 1.8rem;
     gap: 15px;
   }
+
+  .all-case-study-container {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    width: 100%;
+    margin-top: 1.8rem;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .our-clients-section {

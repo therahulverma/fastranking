@@ -58,18 +58,14 @@
     color: #000;
   }
 
+  .service-image {
+    width: 20% !important;
+  }
+
   .service-sub-heading {
     font-size: 10px !important;
     font-weight: bold;
     color: #000;
-  }
-
-  .service-heading {
-    font-size: 8px !important;
-  }
-
-  .service-read-more {
-    font-size: 8px !important;
   }
 
   .service-read-more-arrow {
@@ -83,6 +79,24 @@
     width: 100%;
     margin-top: 1.8rem;
     gap: 15px;
+  }
+
+  .service-box {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    /* background-color: aqua; */
+  }
+
+  .service-all-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 20px;
+    row-gap: 25px !important;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
