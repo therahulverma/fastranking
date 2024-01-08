@@ -1,0 +1,104 @@
+.service-content-second-container {
+  padding: 1.2rem;
+  display: flex;
+  background-color: #faf2f5;
+  flex-direction: column;
+}
+
+.service-content-second-heading {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.service-content-second-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+
+.service-content-second-card:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.service-content-second-card {
+  box-shadow: 0 2px 15px 0 rgba(59, 11, 63, 0.78);
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  border: 1px solid rgba(114, 114, 114, 0.2);
+  width: 25%;
+}
+
+.service-content-second-image-container {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+.service-content-second-image {
+  width: 25%;
+}
+
+.service-content-second-card-heading {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.service-content-second-details {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .service-content-second-heading {
+    font-size: 30px !important;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+
+  .service-content-second-card-heading {
+    padding: 1.5rem !important;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .service-content-second-details {
+    text-align: center;
+    font-size: 10px !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .service-content-second-container {
+    padding: 1.2rem 5vw !important;
+    display: flex;
+    background-color: #faf2f5;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .service-content-second-container {
+    padding: 1.2rem 5vw !important;
+    display: flex;
+    background-color: #faf2f5;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .service-content-second-container {
+    padding: 1.2rem 28vw !important;
+    display: flex;
+    background-color: #faf2f5;
+    flex-direction: column;
+  }
+}

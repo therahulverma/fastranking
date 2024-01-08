@@ -1,0 +1,276 @@
+.section-agency {
+  background: url("https://www.fastranking.co.uk/wp-content/themes/fastranking/img/home-img-1.png")
+    center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-wrap: wrap;
+  padding: 1.2rem;
+}
+
+.section-agency-content {
+  width: 50%;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+}
+
+.section-agency-content-heading {
+  font-size: 45px;
+  font-weight: 400;
+}
+.section-agency-content-subheading {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.section-agency-content-btn-container {
+  padding-top: 25px;
+}
+
+.section-agency-content-arrow {
+  font-size: 16px !important;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.section-agency-image {
+  width: 50%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.section-agency-center-image {
+  width: 25%;
+  padding: 100px;
+}
+
+.section-agency-google-image {
+  width: 80px;
+  position: absolute;
+  left: 115px;
+}
+
+.section-agency-insta-image {
+  width: 80px;
+  position: absolute;
+  bottom: 0px;
+  left: 170px;
+}
+
+.section-agency-facebook-image {
+  width: 80px;
+  position: absolute;
+  top: 0px;
+  left: 170px;
+}
+
+.section-agency-youtube-image {
+  width: 80px;
+  position: absolute;
+  right: 115px;
+}
+
+.section-agency-whatsapp-image {
+  width: 80px;
+  position: absolute;
+  top: 0px;
+  right: 170px;
+}
+
+.section-agency-twitter-image {
+  width: 80px;
+  position: absolute;
+  bottom: 0px;
+  right: 170px;
+}
+
+.consult-btn {
+  background-color: black;
+  padding: 0.5rem 0.8rem;
+  border-radius: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .consult-btn {
+    background-color: black;
+    padding: 0.2rem 0.5rem !important;
+    border-radius: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #ffffff;
+    font-size: 10px !important;
+  }
+  .section-agency-content-heading {
+    font-size: 25px !important;
+    font-weight: 400;
+  }
+
+  .section-agency-content-subheading {
+    font-size: 13px !important;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+
+  .section-agency-whatsapp-image {
+    width: 30px !important;
+    position: absolute;
+    top: 60px !important;
+    right: 125px !important;
+  }
+
+  .section-agency-facebook-image {
+    width: 30px !important;
+    position: absolute;
+    top: 60px !important;
+    left: 125px !important;
+  }
+
+  .section-agency-google-image {
+    width: 30px !important;
+    position: absolute;
+    left: 20px !important;
+  }
+
+  .section-agency-youtube-image {
+    width: 30px !important;
+    position: absolute;
+    right: 20px !important;
+  }
+
+  .section-agency-twitter-image {
+    width: 30px !important;
+    position: absolute;
+    bottom: 60px !important;
+    right: 125px !important;
+  }
+
+  .section-agency-insta-image {
+    width: 30px !important;
+    position: absolute;
+    bottom: 60px !important;
+    left: 125px !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .section-agency-content-heading {
+    font-size: 32px !important;
+    font-weight: 400;
+  }
+
+  .section-agency-content-subheading {
+    font-size: 26px !important;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .section-agency-whatsapp-image {
+    width: 50px !important;
+    position: absolute;
+    top: 30px !important;
+    right: 215px !important;
+  }
+
+  .section-agency-facebook-image {
+    width: 50px !important;
+    position: absolute;
+    top: 30px !important;
+    left: 215px !important;
+  }
+
+  .section-agency-google-image {
+    width: 50px !important;
+    position: absolute;
+    left: 55px !important;
+  }
+
+  .section-agency-youtube-image {
+    width: 50px !important;
+    position: absolute;
+    right: 55px !important;
+  }
+
+  .section-agency-twitter-image {
+    width: 50px !important;
+    position: absolute;
+    bottom: 30px !important;
+    right: 215px !important;
+  }
+
+  .section-agency-insta-image {
+    width: 50px !important;
+    position: absolute;
+    bottom: 30px !important;
+    left: 215px !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .section-agency {
+    padding: 1.2rem 5vw !important;
+  }
+
+  .section-agency-google-image {
+    width: 80px;
+    position: absolute;
+    left: 85px !important;
+  }
+
+  .section-agency-insta-image {
+    width: 80px;
+    position: absolute;
+    bottom: 0px;
+    left: 140px !important;
+  }
+
+  .section-agency-facebook-image {
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    left: 140px !important;
+  }
+
+  .section-agency-youtube-image {
+    width: 80px;
+    position: absolute;
+    right: 85px !important;
+  }
+
+  .section-agency-whatsapp-image {
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    right: 140px !important;
+  }
+
+  .section-agency-twitter-image {
+    width: 80px;
+    position: absolute;
+    bottom: 0px;
+    right: 140px !important;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .section-agency {
+    padding: 1.2rem 5vw !important;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .section-agency {
+    padding: 1.2rem 28vw !important;
+  }
+}

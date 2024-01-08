@@ -1,0 +1,370 @@
+.section-1 {
+  background: url("https://www.fastranking.co.uk/wp-content/themes/fastranking/img/Hero-seciton-background.jpg")
+    center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.section-1-image {
+  width: 55%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0%;
+  position: relative;
+}
+
+.section-1-image-container {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  overflow: hidden;
+  animation: App-logo-spin 5s linear infinite;
+  /* border: 10px solid white; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.big-circle {
+  width: 100%;
+}
+
+.centre-image {
+  width: 85%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.large-title {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.small-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.mid-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.section-1-content {
+  width: 45%;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg) translate(-250px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translate(-250px) rotate(-360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .section-1-image-container {
+    width: 150px !important;
+    height: 150px !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .circle {
+    width: 50px !important;
+    height: 50px !important;
+    position: absolute;
+    overflow: hidden;
+    animation: App-logo-spin 5s linear infinite;
+    /* border: 10px solid white; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .large-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  .small-title {
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+
+  .mid-title {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  @keyframes App-logo-spin {
+    0% {
+      transform: rotate(0deg) translate(-80px) rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg) translate(-80px) rotate(-360deg);
+    }
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .section-1-image-container {
+    width: 300px !important;
+    height: 300px !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .circle {
+    width: 70px !important;
+    height: 70px !important;
+    position: absolute;
+    overflow: hidden;
+    animation: App-logo-spin 5s linear infinite;
+    /* border: 10px solid white; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .large-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+  }
+
+  .small-title {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .mid-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  @keyframes App-logo-spin {
+    0% {
+      transform: rotate(0deg) translate(-150px) rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg) translate(-150px) rotate(-360deg);
+    }
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .section-1 {
+    background: url("https://www.fastranking.co.uk/wp-content/themes/fastranking/img/Hero-seciton-background.jpg")
+      center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 0vw 5vw;
+  }
+
+  .section-1-image-container {
+    width: 385px;
+    height: 385px;
+  }
+  .circle {
+    width: 85px;
+    height: 85px;
+  }
+
+  .large-title {
+    font-size: 3.1rem;
+    font-weight: 900;
+  }
+
+  .small-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  .mid-title {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  @keyframes App-logo-spin {
+    0% {
+      transform: rotate(0deg) translate(-200px) rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg) translate(-200px) rotate(-360deg);
+    }
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .section-1 {
+    background: url("https://www.fastranking.co.uk/wp-content/themes/fastranking/img/Hero-seciton-background.jpg")
+      center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 0vw 5vw;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .section-1 {
+    background: url("https://www.fastranking.co.uk/wp-content/themes/fastranking/img/Hero-seciton-background.jpg")
+      center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 0vw 28vw;
+  }
+
+  .section-1-image {
+    width: 55%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0%;
+    position: relative;
+  }
+
+  .section-1-image-container {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+    animation: App-logo-spin 5s linear infinite;
+    /* border: 10px solid white; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .big-circle {
+    width: 100%;
+  }
+
+  .centre-image {
+    width: 85%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  .font-style-large {
+    font-size: 3.125rem;
+    color: #ffffff;
+    font-weight: 900;
+  }
+
+  .large-title {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  .small-title {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .mid-title {
+    font-size: 2.8rem;
+    font-weight: 900;
+  }
+
+  .section-1-content {
+    width: 45%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  @keyframes App-logo-spin {
+    0% {
+      transform: rotate(0deg) translate(-250px) rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg) translate(-250px) rotate(-360deg);
+    }
+  }
+}

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Service from "./components/Service";
 
 function App() {
+  const [isHoveredServices, setIsHoveredServices] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <Home
+              isHoveredServices={isHoveredServices}
+              setIsHoveredServices={setIsHoveredServices}
+            />
+          }
+        />
+        <Route
+          exact
+          path="/content-marketing-services"
+          element={
+            <Service
+              isHoveredServices={isHoveredServices}
+              setIsHoveredServices={setIsHoveredServices}
+            />
+          }
+        />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,101 @@
+.section {
+  padding: 1.8rem 1.2rem;
+}
+
+.contact-section {
+  background: url("https://www.fastranking.co.uk/wp-content/themes/fastranking/img/Contact-img-1.jpg")
+    center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-description {
+  margin: 1rem 15rem;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.contact-us {
+  background-color: #fff;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #8c29bc;
+  z-index: 0;
+  position: relative;
+}
+
+.contact-us:hover {
+  background-color: #7c05f5;
+  color: #fff;
+  transition: ease-in-out 0.4s;
+}
+
+@media (max-width: 600px) {
+  .contact-description {
+    margin: 0.5rem 1rem !important;
+    font-size: 10px !important;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .contact-us {
+    background-color: #fff;
+    padding: 5px 15px !important;
+    border-radius: 10px;
+    font-size: 8px !important;
+    font-weight: 600;
+    text-decoration: none;
+    color: #8c29bc;
+    z-index: 0;
+    position: relative;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .contact-description {
+    margin: 1rem 4rem !important;
+    font-size: 15px !important;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .contact-us {
+    background-color: #fff;
+    padding: 10px 30px !important;
+    border-radius: 10px;
+    font-size: 12px !important;
+    font-weight: 600;
+    text-decoration: none;
+    color: #8c29bc;
+    z-index: 0;
+    position: relative;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contact-description {
+    margin: 1rem 15rem;
+    font-size: 18px !important;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .section {
+    padding: 1.8rem 28vw;
+  }
+}

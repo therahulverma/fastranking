@@ -1,0 +1,346 @@
+.section {
+  padding: 1.8rem 1.2rem;
+}
+
+.footer-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.footer-2 {
+  background-color: #000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.2rem;
+}
+
+.footer-1-card {
+  height: auto;
+}
+
+.footer-1-card-heading {
+  position: relative;
+  font-size: 25px;
+  font-weight: 700;
+  padding-right: 54px;
+  width: fit-content;
+}
+
+.footer-1-card-heading span::before {
+  content: "";
+  width: 45px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(0, -50%);
+  -khtml-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translateY(-50%);
+  background: linear-gradient(
+    45deg,
+    #2b46d1 0%,
+    #7d03f9 27%,
+    #8b1ef8 48%,
+    #ab60a8 69%,
+    #915191 100%
+  );
+}
+
+.address-details {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.address-email {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.address-email-icon {
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.address-contact-icon {
+  margin-right: 2px;
+}
+.address-contact {
+  color: #6e01eb;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.links-tab {
+  color: #001359;
+  font-size: 18px;
+  font-weight: 500;
+  transition: ease-in-out 0.4s;
+}
+
+.links-tab:hover {
+  padding-left: 16px;
+  transition: ease-in-out 0.4s;
+  color: #7c05f5;
+}
+
+.social-links-icons {
+  display: grid;
+  padding: 20px 6px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.social-links-image {
+  transition: ease-in-out 0.6s;
+  width: 100%;
+}
+.social-links-image:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.social-links-description {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0;
+  margin-bottom: 0px;
+}
+
+.social-link-email-container {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.social-link-input {
+  display: block;
+  width: 75%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.social-link-submit {
+  background-color: #000;
+  color: #fff;
+  width: 25%;
+}
+
+.social-link-submit:hover {
+  cursor: pointer;
+  background-color: #6e01eb;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .footer-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px;
+  }
+
+  .footer-1-card-heading {
+    position: relative;
+    font-size: 12px !important;
+    font-weight: 700;
+    padding-right: 54px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .address-details {
+    font-size: 10px !important;
+    font-weight: 500;
+    padding: 10px 0;
+  }
+
+  .address-email {
+    display: flex;
+    align-items: center;
+    font-size: 10px !important;
+    font-weight: 500;
+  }
+
+  .address-contact {
+    color: #6e01eb;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 10px !important;
+    font-weight: 500;
+  }
+
+  .links-tab {
+    color: #001359;
+    font-size: 10px !important;
+    font-weight: 500;
+    transition: ease-in-out 0.4s;
+  }
+
+  .social-links-description {
+    font-size: 12px !important;
+    font-weight: 500;
+    padding: 10px 0;
+    margin-bottom: 0px;
+  }
+  .social-link-submit {
+    background-color: #000;
+    color: #fff;
+    width: 50% !important;
+  }
+
+  .social-link-input {
+    display: block;
+    width: 40% !important;
+  }
+
+  .footer-end-left {
+    font-size: 8px;
+  }
+
+  .footer-end-right {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .footer-1-card-heading {
+    position: relative;
+    font-size: 18px !important;
+    font-weight: 700;
+    padding-right: 54px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .address-details {
+    font-size: 15px !important;
+    font-weight: 500;
+    padding: 10px 0;
+  }
+
+  .address-email {
+    display: flex;
+    align-items: center;
+    font-size: 15px !important;
+    font-weight: 500;
+  }
+
+  .address-contact {
+    color: #6e01eb;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 15px !important;
+    font-weight: 500;
+  }
+
+  .links-tab {
+    color: #001359;
+    font-size: 15px !important;
+    font-weight: 500;
+    transition: ease-in-out 0.4s;
+  }
+
+  .social-links-description {
+    font-size: 12px !important;
+    font-weight: 500;
+    padding: 10px 0;
+    margin-bottom: 0px;
+  }
+  .social-link-submit {
+    background-color: #000;
+    color: #fff;
+    width: 50% !important;
+  }
+
+  .social-link-input {
+    display: block;
+    width: 40% !important;
+  }
+
+  .footer-end-left {
+    font-size: 10px;
+  }
+
+  .footer-end-right {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .links-tab {
+    color: #001359;
+    font-size: 15px !important;
+    font-weight: 500;
+    transition: ease-in-out 0.4s;
+  }
+
+  .social-links-description {
+    font-size: 15px !important;
+    font-weight: 500;
+    padding: 10px 0;
+    margin-bottom: 0px;
+  }
+  .address-details {
+    font-size: 15px !important;
+    font-weight: 500;
+    padding: 10px 0;
+  }
+
+  .address-email {
+    display: flex;
+    align-items: center;
+    font-size: 15px !important;
+    font-weight: 500;
+  }
+
+  .address-contact {
+    color: #6e01eb;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 15px !important;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .footer-2 {
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5vw !important;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .footer-2 {
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 28vw !important;
+  }
+}
